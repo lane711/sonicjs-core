@@ -1,0 +1,24 @@
+{
+  "name": "sonicjs-core",
+  "version": "0.4.1",
+  "description": "Core library for SonicJs, a headless CMS optimized for deployment on Cloudflare. Provides essential functionality and services for content management, routing, and API handling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lane711/sonicjs-core.git"
+  },
+  "keywords": [
+    "headless",
+    "cms",
+    "sonicjs"
+  ],
+  "author": "Lane Campbell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lane711/sonicjs-core/issues"
+  },
+  "homepage": "https://sonicjs.com"
+}
