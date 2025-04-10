@@ -2,8 +2,14 @@
   "name": "sonicjs-core",
   "version": "0.4.1",
   "description": "Core library for SonicJs, a headless CMS optimized for deployment on Cloudflare. Provides essential functionality and services for content management, routing, and API handling.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/lane711/sonicjs-core/issues"
   },
-  "homepage": "https://sonicjs.com"
+  "homepage": "https://sonicjs.com",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
 }
